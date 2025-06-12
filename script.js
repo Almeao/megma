@@ -932,19 +932,19 @@ gsap.to(".page10_data_left_line_data_03", {
 });
 
 
-var coursor = document.querySelector(".coursor")
-var page11 = document.querySelector(".page11")
-page11.addEventListener("mousemove" ,function(dets)
-{
+// var coursor = document.querySelector(".coursor")
+// var page11 = document.querySelector(".page11")
+// page11.addEventListener("mousemove" ,function(dets)
+// {
 
-    gsap.to(coursor,
-    {
-        x : dets.x,
-        y : dets.y,
-        ease: "bounce.out()",
+//     gsap.to(coursor,
+//     {
+//         x : dets.x,
+//         y : dets.y,
+//         ease: "bounce.out()",
         
-    })
-})
+//     })
+// })
 
   // var swiper = new Swiper(".page11_data", {
   //     slidesPerView: 3,
