@@ -1,0 +1,569 @@
+@media (max-width:500px) {
+    .nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 10vh;
+        z-index: 10;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1% 4%;
+    }
+
+    .nav img {
+        width: 8%;
+    }
+
+    .nav_right {
+        display: flex;
+        width: 30%;
+        justify-content: space-around;
+
+    }
+
+    .nav_right button {
+        background-color: transparent;
+        border-radius: 50px;
+        display: flex;
+        height: 3vh;
+
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 2vw;
+        font-weight: 600;
+        flex-direction: row;
+        border: 1px solid rgba(255, 255, 255, 0.233);
+    }
+
+    .nav_btn_1 {
+        width: 50%;
+
+
+    }
+
+    .nav_btn_2 {
+        width: 30%;
+        position: sticky;
+
+
+    }
+
+    .nav_btn_2 svg {
+        margin-top: 2%;
+        height: 90%;
+    }
+
+    .page1_data {
+        bottom: 30%;
+    }
+
+    .page_1_data_bottam {
+        flex-direction: column;
+        align-items: start;
+        margin-top: 5%;
+        font-size: 2.5vw;
+    }
+
+    .page_1_data_bottam button {
+        background-color: transparent;
+        border-radius: 50px;
+        display: flex;
+        height: 3vh;
+        width: 15%;
+        margin-top: 3%;
+        margin-left: 2%;
+        font-weight: 600;
+        align-items: center;
+        justify-content: center;
+        color: #0842E0;
+        background-color: white;
+        font-size: 1.5vw;
+        font-weight: 600;
+        flex-direction: row;
+        border: transparent;
+    }
+
+    .page2 {
+        height: 50vh;
+    }
+
+    .page4 {
+        height: 50vh;
+    }
+
+    .page_1bottam {
+        width: 100%;
+        height: 10vh;
+        position: absolute;
+        bottom: 2%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        right: 5%;
+        font-size: 2.3vw;
+        color: white;
+    }
+
+    .page_1bottam svg {
+        width: 1.5%;
+        margin-left: 0.5%;
+        width: 3%;
+        animation: bounce 2s infinite;
+    }
+
+    .page6 {
+        height: 50vh;
+    }
+
+
+
+    .page8 {
+        height: 80vh;
+        width: 100vw;
+        background-color: #0b3bc9;
+        position: relative;
+    }
+
+    .page8 video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        z-index: 5;
+
+    }
+
+    .page8_data {
+        position: absolute;
+        bottom: 8%;
+        height: 30vh;
+        width: 30vw;
+        z-index: 9;
+        left: 35%;
+        /* transform: translate(-50%, -70%); */
+        align-self: center;
+
+        display: flex;
+        flex-direction: column;
+        font-size: 6vw;
+        white-space: nowrap;
+        font-weight: 600;
+        color: white;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .page8_data button {
+        background-color: transparent;
+        border-radius: 50px;
+        display: flex;
+        height: 3vh;
+        width: 60%;
+        margin-left: 2%;
+        font-weight: 600;
+        align-items: center;
+        justify-content: center;
+        color: #0842E0;
+        background-color: white;
+        font-size: 2.3vw;
+        font-weight: 600;
+        flex-direction: row;
+        border: transparent;
+    }
+
+    .page9 {
+        min-height: 100vh;
+        width: 100%;
+        position: relative;
+        background: linear-gradient(#0b3bc9, #041e6e);
+        z-index: 10;
+    }
+
+    .page9_part1 {
+        display: flex;
+        flex-direction: column;
+
+
+
+        align-items: center;
+        font-size: 6vw;
+        height: 60vh;
+        font-weight: 600;
+        color: white;
+
+    }
+
+    .page9_part1 img {
+        width: 90%;
+        border-radius: 3vh;
+
+
+    }
+
+    .page9_part2 {
+        margin-top: 5%;
+        width: 70%;
+        height: 30vh;
+        margin-left: 15%;
+        font-size: 2vw;
+        color: white;
+    }
+
+    .page9_part2 h3 {
+        font-size: 4vw;
+        color: white;
+        font-weight: 900;
+        padding-bottom: 3%;
+    }
+
+    .page9_part2 h4 {
+        font-size: 3vw;
+        color: #CCD4E9;
+        font-weight: 900;
+        padding-bottom: 3%;
+    }
+
+
+
+
+
+
+    .page10 {
+        min-height: 100vh;
+        width: 100%;
+        background-color: #03268E;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        font-size: 3vw;
+        padding: 3% 10%;
+        color: white;
+    }
+
+    .page10_data {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        margin-top: 10%;
+        justify-content: space-between;
+
+    }
+
+    .page10_data_left {
+        width: 70%;
+        height: 100%;
+
+    }
+
+    .page10_data_left_01 {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+
+        flex-direction: row;
+    }
+
+    .page10_deta_left_line {
+        width: 2px;
+        height: auto;
+
+        position: relative;
+        /* overflow: visible; */
+        background-color: #0A3CCE;
+    }
+
+    .page10_data_left_line_circal {
+        width: 15px;
+        height: 15px;
+        border-radius: 50vw;
+        background-color: #0A3CCE;
+        position: absolute;
+        /* Add this */
+        left: 50%;
+        /* Center horizontally */
+        /* Center vertically */
+        transform: translate(-50%, -50%);
+        /* Perfect center */
+    }
+
+    .page10_data_left_line_data {
+        width: 80%;
+        height: 100%;
+        padding-left: 10%;
+        top: 0;
+        padding-bottom: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        color: rgba(255, 255, 255, 0.308);
+
+    }
+
+    .page10_data_left_line_data h5 {
+        font-size: 3vw;
+
+        font-weight: 600;
+        margin-top: 2%;
+        padding-bottom: 2%;
+
+
+    }
+
+    .page10_data_left_line_data h4 {
+        font-size: 6vw;
+
+        font-weight: 600;
+        padding-bottom: 2%;
+
+    }
+
+    .page10_data_right {
+        width: 25%;
+        height: 100;
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+    }
+
+    .page10_data_right canvas {
+        width: 50%;
+        height: 30%;
+        position: sticky;
+        top: 10%;
+
+
+    }
+
+    .page12 {
+        min-height: 100vh;
+        width: 100%;
+        background-color: white;
+        overflow: ;
+    }
+
+    .page12 h1 {
+        padding: 5% 10%;
+        font-size: 7vw;
+    }
+
+    .page12_01 {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+
+        height: 30vh;
+        margin-bottom: 5%;
+    }
+
+    .page12_data_main {
+        margin-top: 5%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .page12img_01 {
+        width: 100%;
+        height: 30vh;
+        border-radius: 1.5vw;
+        background-image: url(thisismagma.com-rewriting-real-estate-zoniqx-and-magma-power-the-new-digital-asset-frontier-magma-zoniqx-partnership-scaled.jpg);
+        background-size: cover;
+        /* Show the full image */
+        background-repeat: no-repeat;
+        /* Don't repeat */
+        background-position: center;
+        /* Center the image */
+
+    }
+
+    .page12img_02 {
+        width: 100%;
+        height: 120%;
+        border-radius: 1.5vw;
+        background-image: url(thisismagma.com-digital-twins-meet-blockchain-magmas-3d-viewer-is-live-screenshot-2025-01-30-at-08.32.08.png);
+        background-size: cover;
+        /* Show the full image */
+        background-repeat: no-repeat;
+        /* Don't repeat */
+        background-position: center;
+        /* Center the image */
+
+    }
+
+    .page12img_03 {
+        width: 100%;
+        height: 100%;
+        border-radius: 1.5vw;
+        background-image: url(thisismagma.com-join-us-at-the-miami-digital-real-estate-summit-miami-digital-real-estate-summit.jpg);
+        background-size: cover;
+        /* Show the full image */
+        background-repeat: no-repeat;
+        /* Don't repeat */
+        background-position: center;
+        /* Center the image */
+
+    }
+
+    .page12_data {
+        width: 80%;
+        height: 100%;
+        font-size: 3vw;
+        display: flex;
+        padding: 3% 4%;
+        flex-direction: column;
+    }
+
+    .page12_data h5 {
+        margin-bottom: 7%;
+        font-size: 2.5vw;
+    }
+
+
+
+
+
+    .page13 {
+    height: 50vh;
+    width: 100%;
+    background-color: #02268E;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.page13 h1 {
+    color: white;
+
+    margin-left: 50%;
+    margin-top: 10%;
+    font-size: 8vw;
+}
+
+.page13 h5 {
+    color: rgba(255, 255, 255, 0.603);
+    margin-top: 2%;
+    margin-left: 50%;
+    font-size: 2.3vw;
+    width: 35%;
+}
+
+            .page14 {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #0F0F17;
+    color: white;
+}
+
+.page14 h1 {
+    width: 60%;
+    height: auto;
+    font-size: 7vw;
+    padding: 5% 8%;
+}
+
+.page14 button {
+    background-color: transparent;
+    border-radius: 50px;
+    display: flex;
+    height: 3vh;
+    width: 18%;
+    margin-left: 8%;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    background-color: #0842E0;
+    color: white;
+    font-size: 2vw;
+    font-weight: 600;
+    flex-direction: row;
+    border: transparent;
+}
+
+.page14_dataoption {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 9%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dataotion01 {
+    position: relative;
+    overflow: hidden;
+    background: none;
+    height: 10vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+
+}
+    .dataotion01 h2 {
+    font-size: 4vh;
+    padding-left: 2%;
+}
+
+.dataotion01 span {
+
+    font-size: 5vw;
+}
+
+.page14_upper_footer {
+    height: 30vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 8%;
+
+
+}
+.page14_footer_left {
+
+    font-size: 2.5vw;
+    line-height: 3vw;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.page14_footer_left h4 {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.page14_footer_right {
+    display: flex;
+    flex-direction: column;
+    font-size: 4vw;
+    margin-left: 2%;
+    height: 100%;
+    width: 40%;
+}
+
+.page14_footer_right h5 {
+    display: flex;
+    font-size: 2.5vw;
+    padding-top: 3%;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.page14_lovver_footer {
+    height: 10vh;
+    margin-left: 10%;
+
+}
+}
